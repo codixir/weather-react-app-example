@@ -8,6 +8,11 @@ function App() {
   const [weatherData, setWeatherData] = useState([])
 
   const getWeather = async (cityName) => {
+    /*
+      The following API_KEY is a fake API_KEY.
+      To make a successful request you have to replace the value of API_KEY
+      with a valid API_KEY you obtain from the openweathermap.org.
+    */
     const API_KEY = '0c38a1e7737dfd01e8cb9126e4b9e105';
     const url = `https://api.openweathermap.org/data/2.5/forecast?q=${cityName}&units=metric&appid=${API_KEY}`
 
