@@ -1,0 +1,8 @@
+.weather-item {
+    padding: 24px;
+    background-color: white;
+    flex: 1 1 calc(33.33% - 20px);
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    max-width: calc(33.33% - 20px);
+}
